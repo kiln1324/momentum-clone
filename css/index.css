@@ -151,8 +151,8 @@ section .todo-wrap {
 #todo-list li {
   width: 300px;
   padding: 0 16px;
-  height: 32px;
-  line-height: 32px;
+  height: 40px;
+  line-height: 40px;
   line-height: 1.5;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 80px;
