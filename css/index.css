@@ -89,7 +89,7 @@ header {
   font-size: 1.4rem;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1080px) {
   #weather {
     left: 50%;
     top: 140px;
