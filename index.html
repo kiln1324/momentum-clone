@@ -10,11 +10,93 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/flip-clock.css" />
   </head>
   <body>
     <header>
       <h2 id="today">---년 --월 --일</h2>
-      <h2 id="clock">00시 00분 00초</h2>
+      <div id="app">
+        <div class="clock-container">
+          <div class="clock clock_h">
+            <div
+              class="digit digit_left"
+              data-digit-front="0"
+              data-digit-back="0"
+            >
+              <!-- ::BEFORE -->
+              <div class="card-wrap">
+                <div class="card card_front">0</div>
+                <div class="card card_back">0</div>
+              </div>
+              <!-- ::AFTER -->
+            </div>
+            <div
+              class="digit digit_right"
+              data-digit-front="0"
+              data-digit-back="0"
+            >
+              <!-- ::BEFORE -->
+              <div class="card-wrap">
+                <div class="card card_front">0</div>
+                <div class="card card_back">0</div>
+              </div>
+              <!-- ::AFTER -->
+            </div>
+          </div>
+          <div class="clock clock_m">
+            <div
+              class="digit digit_left"
+              data-digit-front="0"
+              data-digit-back="0"
+            >
+              <!-- ::BEFORE -->
+              <div class="card-wrap">
+                <div class="card card_front">0</div>
+                <div class="card card_back">0</div>
+              </div>
+              <!-- ::AFTER -->
+            </div>
+            <div
+              class="digit digit_right"
+              data-digit-front="0"
+              data-digit-back="0"
+            >
+              <!-- ::BEFORE -->
+              <div class="card-wrap">
+                <div class="card card_front">0</div>
+                <div class="card card_back">0</div>
+              </div>
+              <!-- ::AFTER -->
+            </div>
+          </div>
+          <div class="clock clock_s">
+            <div
+              class="digit digit_left"
+              data-digit-front="0"
+              data-digit-back="0"
+            >
+              <!-- ::BEFORE -->
+              <div class="card-wrap">
+                <div class="card card_front">0</div>
+                <div class="card card_back">0</div>
+              </div>
+              <!-- ::AFTER -->
+            </div>
+            <div
+              class="digit digit_right"
+              data-digit-front="0"
+              data-digit-back="0"
+            >
+              <!-- ::BEFORE -->
+              <div class="card-wrap">
+                <div class="card card_front">0</div>
+                <div class="card card_back">0</div>
+              </div>
+              <!-- ::AFTER -->
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div id="weather">
         <span></span><br />
@@ -58,7 +140,8 @@
     </footer>
 
     <script src="js/greetings.js"></script>
-    <script src="js/clock.js"></script>
+    <script src="js/today.js"></script>
+    <script src="js/flip-clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>

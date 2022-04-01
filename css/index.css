@@ -61,11 +61,11 @@ header {
   text-align: center;
 }
 
-#clock {
+/* #clock {
   color: #fff;
   font-size: 2.4rem;
   line-height: 1;
-}
+} */
 
 #today {
   color: #fff;
@@ -92,7 +92,7 @@ header {
 @media all and (max-width: 1080px) {
   #weather {
     left: 50%;
-    top: 140px;
+    top: 180px;
     transform: translateX(-50%);
     text-align: center;
   }
